@@ -15,7 +15,7 @@ import main.BlueprintsScoringApp;
 public class RoundTripTests {
 
     @ParameterizedTest
-    @ValueSource(strings = { "01", "02", "03", "04", "05", "06", "07" })
+    @ValueSource(strings = { "01", "02", "03", "04", "05", "06", "07", "08" })
     public void level_50(String testNum) throws Exception {
         BlueprintsScoringApp app = new BlueprintsScoringApp(
                 buildingPath(50, testNum),
